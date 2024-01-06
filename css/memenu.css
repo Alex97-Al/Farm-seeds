@@ -146,7 +146,7 @@
 	color:#000;
 }
 .skyblue > li:hover > a, .skyblue > li.active > a, .skyblue .dropdown li:hover > a {
-	color: #7fff00;
+	color: #228b22;
 }.
 skyblue .mepanel img:hover,.skyblue form.contact input[type="text"]:focus,.skyblue form.contact textarea:focus{
 	border:solid 1px #0194be;

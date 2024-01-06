@@ -34,7 +34,7 @@ body a{
 }
     .logo a h1 {
         font-size: 32px;
-        color: #7fff00;
+        color: #228b22;
         margin: 0;
         font-family: 'Lora-Regular';
         text-transform: uppercase;
@@ -229,13 +229,13 @@ span.simpleCart_total {
 	transform-origin: 50% 20%;
 }
 .dropdown:hover .carat:after{
-	border-top-color: #7fff00;
+	border-top-color: #228b22;
 }
 .dropdown.focus .carat{
-	border-top-color: #7fff00;
+	border-top-color: #228b22;
 }
 .dropdown.focus .carat:after{
-	border-top-color: #7fff00;
+	border-top-color: #228b22;
 }
 .dropdown.open .carat{
 	-webkit-transform: rotate(180deg);
@@ -295,7 +295,7 @@ span.simpleCart_total {
 	left: 13px;
 	right: 0;
 	top: 36px;
-	background: #7fff00;
+	background: #228b22;
 	overflow: hidden;
 	opacity: 0;
 	color: #fff;
@@ -340,20 +340,20 @@ span.simpleCart_total {
 .dropdown li{
 	list-style: none;
 	padding:8px;
-	border-bottom: 1px solid #7fff00;
+	border-bottom: 1px solid #228b22;
 }
 .dropdown li:last-child {
     border-bottom: 0;
 }
 /* .focus class is also added on hover */
 .dropdown li.focus{
-	background:#7fff00;
+	background:#228b22;
 	position: relative;
 	z-index: 3;
 	color: #fff;
 }
 .dropdown li.active{
-	background:#7fff00;
+	background:#228b22;
 	color: #fff;
 }
 .header-bottom {
@@ -465,7 +465,7 @@ span.simpleCart_total {
 	background:#000;
 }
 .callbacks_here a:after {
-    background: #7fff00;
+    background: #228b22;
 }
 ul.callbacks_tabs.callbacks2_tabs {
 	display: block;
@@ -513,7 +513,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	height: 100%;
 }
 figure.effect-bubba {
-    background: #7fff00;
+    background: #228b22;
 }
 figure.effect-bubba:hover img {
 	opacity: 0.3;
@@ -683,7 +683,7 @@ a.mask {
     padding: 12px 0px;
 }
 .product-left:hover .product-bottom h3 {
-    color: #7fff00;
+    color: #228b22;
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -691,7 +691,7 @@ a.mask {
     -ms-transition: 0.5s all ease;
 }
 .product-left:hover .product-bottom h4 span {
-    color: #7fff00;
+    color: #228b22;
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -699,15 +699,35 @@ a.mask {
     -ms-transition: 0.5s all ease;
 }
 .product-left:hover .product-main {
-    border: 1px solid #7fff00;
+    border: 1px solid #228b22;
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
 }
-.product-left:hover .srch{
-	display:block;
+.product-left:hover .srch {
+    display: block;
+}
+.product-left:hover .srch1{
+    text-decoration: none;
+}
+.product-left:hover span {
+    text-decoration: line-through;
+}
+.item_price_hover {
+    visibility: hidden;
+}
+.item_add {
+    visibility: hidden;
+}
+.product-left:hover .item_add {
+    visibility: visible
+}
+
+.product-left:hover .item_price_hover {
+    visibility: visible;
+    text-decoration: none;
 }
 .srch {
     display: none;
@@ -716,7 +736,7 @@ a.mask {
     left: 16px;
 }
     .srch span {
-        background: #7fff00;
+        background: #228b22;
         color: #fff;
         font-size: 15px;
         font-weight: 400;
@@ -724,9 +744,12 @@ a.mask {
     }
 /*--product-end--*/
 /*--information-starts--*/
+.information{
+    margin-left: 20%;
+}
 .infor-left h3 {
     font-size: 1.5em;
-    color: #7fff00;
+    color: #228b22;
     margin: 0 0 0 0;
     font-family: 'BreeSerif-Regular';
 }
@@ -779,7 +802,7 @@ a.mask {
     vertical-align: middle;
 }
     .infor-left ul li a h6:hover {
-        color: #7fff00;
+        color: #228b22;
     }
 .infor-left ul li a p {
     color: #999;
@@ -787,7 +810,7 @@ a.mask {
     margin: 0;
 }
     .infor-left ul li a p:hover {
-        color: #7fff00;
+        color: #228b22;
     }
 .infor-left ul li a:hover{
 	text-decoration:none;
@@ -811,7 +834,7 @@ a.mask {
     color: #999;
 }
 .infor-left p a:hover{
-	color: #7fff00;
+	color: #228b22;
 	text-decoration:none;
 }
 .infor-left p {
@@ -851,9 +874,9 @@ a.mask {
     outline: none;
 }
 .footer-left input[type=submit]:hover{
-    background: #7fff00;
+    background: #228b22;
 	color:#fff;
-	border: 1px solid #7fff00;
+	border: 1px solid #228b22;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
@@ -875,7 +898,7 @@ a.mask {
 	color: #000;
 }
 .footer-right p a:hover{
-	color: #7fff00;
+	color: #228b22;
 	text-decoration:none;
 }
 /*--footer-end--*/
@@ -1155,7 +1178,7 @@ a.mask {
 .sky-form .radio:hover i,
 .sky-form .checkbox:hover i,
 .sky-form .toggle:hover i {
-	border-color: #7fff00;
+	border-color: #228b22;
 }
 .sky-form .button:hover {
 	opacity: 1;
@@ -1167,19 +1190,19 @@ a.mask {
 .sky-form .radio input:focus + i,
 .sky-form .checkbox input:focus + i,
 .sky-form .toggle input:focus + i {
-	border-color: #7fff00;
+	border-color: #228b22;
 }
 /* checked state */
 .sky-form .radio input + i:after {
-	background-color: #7fff00;	
+	background-color: #228b22;	
 }
 .sky-form .checkbox input + i:after {
-	color: #7fff00;
+	color: #228b22;
 }
 .sky-form .radio input:checked + i,
 .sky-form .checkbox input:checked + i,
 .sky-form .toggle input:checked + i {
-	border-color: #7fff00;	
+	border-color: #228b22;	
 }
 /* error state */
 .sky-form .state-error input,
@@ -1315,7 +1338,7 @@ a.mask {
     color: #242424;
 }
 .breadcrumb li a:hover {
-    color: #7fff00;
+    color: #228b22;
     text-decoration: none;
 }
 /*--breadcrumbs-end--*/
@@ -1363,8 +1386,8 @@ a.mask {
 	outline: none;
 }
 .submit-btn input[type=submit]:hover{
-	background: #7fff00;
-	border: 1px solid #7fff00;
+	background: #228b22;
+	border: 1px solid #228b22;
 	color:#fff;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -1373,7 +1396,7 @@ a.mask {
 	-o-transition: 0.5s all;
 }
 .address h5 {
-    color: #7fff00;
+    color: #228b22;
     font-size: 1.5em;
     font-weight: 700;
     margin: 0;
@@ -1412,7 +1435,7 @@ a.mask {
 }
 .account-left h3 {
     font-size: 1.7em;
-    color: #7fff00;
+    color: #228b22;
     margin: 0 0 0 0;
     font-family: 'BreeSerif-Regular';
 }
@@ -1451,7 +1474,7 @@ a.mask {
 	margin-right: 20px;
 }
 .address input[type="submit"] {
-    background: #7fff00;
+    background: #228b22;
     color: #FFF;
     font-size: 1em;
     padding: 0.5em 1.2em;
@@ -1598,7 +1621,7 @@ ul.star-footer li {
     color: #000;
 }
 .star-on a:hover {
-    color: #7fff00;
+    color: #228b22;
 }
 ul.star-footer li i {
     height: 16px;
@@ -1679,7 +1702,7 @@ a.add-cart {
     display: inline-block;
 }
 a.add-cart:hover {
-	background: #7fff00;
+	background: #228b22;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
@@ -1745,7 +1768,7 @@ ul {
 	text-decoration:none;
 }
 .menu_drop > li > a:hover, .menu > li > a.active {
-	background:#7fff00;
+	background:#228b22;
 	text-decoration:none;
 }
 .m_4{
@@ -1805,7 +1828,7 @@ h3.m_2{
 h3.ghj {
     font-size: 1.8em;
     margin: 0 0 1em 0;
-    color: #7fff00;
+    color: #228b22;
     font-family: 'BreeSerif-Regular';
 }
 .heading h2{
@@ -1858,7 +1881,7 @@ h3.ghj {
 	font-size:13px;
 	padding:10px 12px;
 	color:#fff;
-	background:#7fff00;
+	background:#228b22;
 }
 .account-right a:hover{
 	text-decoration:none;
